@@ -1,1 +1,2 @@
+pwd
 # alu-shell
