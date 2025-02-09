@@ -1,3 +1,2 @@
 pwd
 # alu-shell
-ls
