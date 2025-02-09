@@ -1,2 +1,3 @@
 pwd
 # alu-shell
+ls
