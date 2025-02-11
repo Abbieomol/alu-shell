@@ -1,0 +1,8 @@
+#!/bin/bash
+# This script parses the Apache access logs to display the IP and HTTP status code.
+
+# Read the log file line by line
+while IFS=" " read -r ip _ _ _ _ _ _ _ status_code _; do
+  # Print the IP and HTTP status code
+  echo "$ip $status_code"
+done < /var/log/apache2/access.log
