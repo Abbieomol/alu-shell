@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Script to check the existence and type of the "school" file
 
 FILE="school"
