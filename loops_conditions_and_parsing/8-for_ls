@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script lists the content of the current directory and displays only the part of the name after the first dash.
+
+for file in *; do
+    if [ -f "$file" ]; then  # Ensure it's a regular file and not a directory
+        name=$(echo "$file" | cut -d'-' -f2-)
+        echo "$name"
+    fi
+done
